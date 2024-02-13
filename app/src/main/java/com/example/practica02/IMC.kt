@@ -16,7 +16,7 @@ class IMC : AppCompatActivity() {
 
         var btnregresa = findViewById<Button>(R.id.regresaimc)
         btnregresa.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            finish()
         }
     }
 }

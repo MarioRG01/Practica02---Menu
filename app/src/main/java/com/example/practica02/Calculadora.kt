@@ -16,7 +16,7 @@ class Calculadora : AppCompatActivity() {
 
         var btnregresa = findViewById<Button>(R.id.regresacalculadora)
         btnregresa.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            finish()
         }
     }
 }
